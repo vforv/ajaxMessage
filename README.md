@@ -4,8 +4,8 @@
 
 
 Inside controller:
-//To display error message replace success with error
 ```
+//To display error message replace success with error
 $scope.message = 'success';
 ```
 
