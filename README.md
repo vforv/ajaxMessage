@@ -1,1 +1,1 @@
-# ajaxMessage
+# Ajax message directive AngularJS
