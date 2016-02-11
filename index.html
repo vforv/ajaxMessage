@@ -1,0 +1,22 @@
+
+<!DOCTYPE html>
+<html ng-app="appname">
+
+  <head>
+    <script src="js/angular1.4.3.js"></script>
+    <script src="js/route1.4.3.js"></script>
+    <link href="css/style.css" rel="stylesheet"/>
+    <link href="css/bootstrap.css" rel="stylesheet"/>
+    <script src="js/app.js"></script>
+    <script src="js/controller.js"></script>
+    <script src="js/ajaxMessageDirective.js"></script>
+  </head>
+
+  <body>
+    <div ng-controller="AjaxController">
+        <ajax-message is-success="message" message-success="succes message" message-error="error message"></ajax-message>
+        
+    </div>
+  </body>
+
+</html>
